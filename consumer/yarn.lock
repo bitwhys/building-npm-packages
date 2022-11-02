@@ -23,6 +23,11 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
+"@bitwhys/utils@^0.0.1":
+  version "0.0.1"
+  resolved "http://localhost:4873/@bitwhys%2futils/-/utils-0.0.1.tgz#f22eda8a63e3f752c48e0b97b5b1cbf07e312bb3"
+  integrity sha512-8PKL2zdODpA7SGFQxySb6rHKt7SFVJRZSQrOeSeQ52PW09RK2dvcVLhnmA7mh/M18xIpRkIASJLt60TP4K5ezQ==
+
 "@fontsource/lexend@^4.5.13":
   version "4.5.13"
   resolved "http://localhost:4873/@fontsource%2flexend/-/lexend-4.5.13.tgz#a22076e1393af0f075e945fcffc9ffa514805304"

@@ -301,6 +301,31 @@ module.exports = {
           900: '#200005',
         },
       },
+      animation: {
+        grow: 'grow 30s ease-in alternate infinite',
+        pan: 'pan 25s linear',
+      },
+      keyframes: {
+        grow: {
+          '0%': {
+            width: '0%',
+          },
+          '100%': {
+            width: '100%',
+          },
+        },
+        pan: {
+          '0%': {
+            'background-position': '0 50%',
+          },
+          '50%': {
+            transform: 'translate(30px, -50px) scale(1.1)',
+          },
+          '100%': {
+            'background-position': '0 50%',
+          },
+        },
+      },
       fontFamily: {
         sans: ['LexendVariable', ...defaultTheme.fontFamily.sans],
       },
