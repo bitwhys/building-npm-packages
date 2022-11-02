@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    @apply text-slate-800;
+
+  }
+  ::-webkit-scrollbar
+  {
+    /*width: 6px;*/
+    /*height: 6px;*/
+    background-color: #F5F5F5;
+    overflow-x: auto;
+  }
+}
