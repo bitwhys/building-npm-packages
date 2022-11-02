@@ -1,0 +1,19 @@
+{
+  "name": "building-npm-packages",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "George Bockari <bitwhys@cr8iv.io>",
+  "license": "MIT",
+  "scripts": {
+    "cz": "cz"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "3.3.0",
+    "prettier": "^2.7.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
