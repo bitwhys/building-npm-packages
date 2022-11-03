@@ -5,8 +5,8 @@
   "author": "George Bockari <bitwhys@cr8iv.io>",
   "license": "MIT",
   "scripts": {
-    "start": "parcel watch src/manifest.json --host localhost",
-    "build": "parcel build src/manifest.json"
+    "start": "parcel watch src/manifest.json --dist-dir distribution --no-cache --no-hmr",
+    "build": "parcel build src/manifest.json --no-content-hash --no-source-maps --dist-dir distribution --no-cache --detailed-report 0"
   },
   "devDependencies": {
     "@parcel/config-webextension": "^2.7.0",
@@ -14,13 +14,14 @@
     "@tailwindcss/forms": "^0.5.3",
     "@tailwindcss/line-clamp": "^0.4.2",
     "@tailwindcss/typography": "^0.5.7",
+    "@types/chrome": "^0.0.200",
     "autoprefixer": "^10.4.13",
     "parcel": "^2.7.0",
     "postcss": "^8.4.18",
     "tailwindcss": "^3.2.1"
   },
   "dependencies": {
-    "@bitwhys/utils": "^0.0.2",
+    "@bitwhys/utils": "^0.0.3",
     "@fontsource/lexend": "^4.5.13"
   }
 }

@@ -23,10 +23,10 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@bitwhys/utils@^0.0.2":
-  version "0.0.2"
-  resolved "http://localhost:4873/@bitwhys%2futils/-/utils-0.0.2.tgz#d105bd5c68aa105fddaa6a0fb86abf5a72c3691c"
-  integrity sha512-QXxu1TVvEoleSIn6iN+vixuAbM/hZ89UmBcYgNzYNugGD3vvOmNlktz3BrUh74fkJdkm+LJF9oPUsb3ZR25xDA==
+"@bitwhys/utils@^0.0.3":
+  version "0.0.3"
+  resolved "http://localhost:4873/@bitwhys%2futils/-/utils-0.0.3.tgz#eedc1bcfcf28738a73a583f4a481514b48f34325"
+  integrity sha512-2GVnwEzkrUjpYcmtqU0KJp7Pkn9RuLbEr15MStVPUBhgAHAFU9K3CWtnL0NKpm37OYV7bwEec5vPeigvyda1YA==
 
 "@fontsource/lexend@^4.5.13":
   version "4.5.13"
@@ -819,6 +819,31 @@
   version "0.2.0"
   resolved "http://localhost:4873/@trysound%2fsax/-/sax-0.2.0.tgz#cccaab758af56761eb7bf37af6f03f326dd798ad"
   integrity sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA==
+
+"@types/chrome@^0.0.200":
+  version "0.0.200"
+  resolved "http://localhost:4873/@types%2fchrome/-/chrome-0.0.200.tgz#0b48b3a1f986882712121f5b218fd9caac460fee"
+  integrity sha512-oNT2/KHgZECTzj4oavLc20r3D2yFufLwGNaLFAN8YxYyNVJGenX3l3oGBynhoT/Azm3eAfyDynrdca6jB7CNzw==
+  dependencies:
+    "@types/filesystem" "*"
+    "@types/har-format" "*"
+
+"@types/filesystem@*":
+  version "0.0.32"
+  resolved "http://localhost:4873/@types%2ffilesystem/-/filesystem-0.0.32.tgz#307df7cc084a2293c3c1a31151b178063e0a8edf"
+  integrity sha512-Yuf4jR5YYMR2DVgwuCiP11s0xuVRyPKmz8vo6HBY3CGdeMj8af93CFZX+T82+VD1+UqHOxTq31lO7MI7lepBtQ==
+  dependencies:
+    "@types/filewriter" "*"
+
+"@types/filewriter@*":
+  version "0.0.29"
+  resolved "http://localhost:4873/@types%2ffilewriter/-/filewriter-0.0.29.tgz#a48795ecadf957f6c0d10e0c34af86c098fa5bee"
+  integrity sha512-BsPXH/irW0ht0Ji6iw/jJaK8Lj3FJemon2gvEqHKpCdDCeemHa+rI3WBGq5z7cDMZgoLjY40oninGxqk+8NzNQ==
+
+"@types/har-format@*":
+  version "1.2.9"
+  resolved "http://localhost:4873/@types%2fhar-format/-/har-format-1.2.9.tgz#b9b3a9bfc33a078e7d898a00b09662910577f4a4"
+  integrity sha512-rffW6MhQ9yoa75bdNi+rjZBAvu2HhehWJXlhuWXnWdENeuKe82wUgAwxYOb7KRKKmxYN+D/iRKd2NDQMLqlUmg==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"

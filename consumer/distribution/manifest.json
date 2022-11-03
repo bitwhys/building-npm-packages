@@ -1,0 +1,1 @@
+{"name":"Sample Web Extension","manifest_version":3,"version":"0.0.1","icons":{"256":"icon@64.a0df9e0d.png"},"background":{"service_worker":"background-worker.8564650f.js","type":"module"},"action":{"default_popup":"popup.c09a7f36.html"},"permissions":["tabs"],"host_permissions":["http://*/*","https://*/*"]}

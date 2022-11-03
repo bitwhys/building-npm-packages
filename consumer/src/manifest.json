@@ -5,7 +5,13 @@
   "icons": {
     "256": "assets/icon@64.png"
   },
+  "background": {
+    "service_worker": "pages/background/background-worker.js",
+    "type": "module"
+  },
   "action": {
     "default_popup": "./pages/popup/popup.html"
-  }
+  },
+  "permissions": ["tabs"],
+  "host_permissions": ["http://*/*", "https://*/*"]
 }

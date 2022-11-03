@@ -1,0 +1,1 @@
+(()=>{const t=async()=>{let[t]=await chrome.tabs.query({active:!0,lastFocusedWindow:!0});return t};chrome.tabs.onActivated.addListener((async()=>{const a=await t();console.log(a)}))})();
