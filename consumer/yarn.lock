@@ -23,10 +23,10 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@bitwhys/utils@^0.0.1":
-  version "0.0.1"
-  resolved "http://localhost:4873/@bitwhys%2futils/-/utils-0.0.1.tgz#f22eda8a63e3f752c48e0b97b5b1cbf07e312bb3"
-  integrity sha512-8PKL2zdODpA7SGFQxySb6rHKt7SFVJRZSQrOeSeQ52PW09RK2dvcVLhnmA7mh/M18xIpRkIASJLt60TP4K5ezQ==
+"@bitwhys/utils@^0.0.2":
+  version "0.0.2"
+  resolved "http://localhost:4873/@bitwhys%2futils/-/utils-0.0.2.tgz#d105bd5c68aa105fddaa6a0fb86abf5a72c3691c"
+  integrity sha512-QXxu1TVvEoleSIn6iN+vixuAbM/hZ89UmBcYgNzYNugGD3vvOmNlktz3BrUh74fkJdkm+LJF9oPUsb3ZR25xDA==
 
 "@fontsource/lexend@^4.5.13":
   version "4.5.13"

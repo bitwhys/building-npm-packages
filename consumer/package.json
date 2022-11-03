@@ -20,7 +20,7 @@
     "tailwindcss": "^3.2.1"
   },
   "dependencies": {
-    "@bitwhys/utils": "^0.0.1",
+    "@bitwhys/utils": "^0.0.2",
     "@fontsource/lexend": "^4.5.13"
   }
 }
