@@ -5,5 +5,8 @@
   "author": "George Bockari <bitwhys@cr8iv.io>",
   "license": "MIT",
   "scripts": {},
-  "dependencies": {}
+  "dependencies": {},
+  "publishConfig": {
+    "registry": "http://localhost:4873"
+  }
 }
