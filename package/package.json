@@ -1,6 +1,6 @@
 {
   "name": "@bitwhys/utils",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "author": "George Bockari <bitwhys@cr8iv.io>",
   "license": "MIT",
